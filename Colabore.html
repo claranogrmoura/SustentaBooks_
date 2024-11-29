@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head style="background-image: url();">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustenta</title>
+    <link rel="stylesheet" href="Sustenta(1).css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" href="LogoSustenta.jpeg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color: #F0FFF0;">
+
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="Sustenta(1).html">
+                    <img src="logo top1.png" alt="Sustenta Books" width="220" height="auto">
+                </a>
+    
+            <!-- Botão Responsivo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+    
+                <!-- Links da Navbar -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Sustenta(1).html">Início</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="produtosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Produtos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="produtosDropdown">
+                                <a class="dropdown-item" href="Sustenta.html">Ebooks</a>
+                                <a class="dropdown-item" href="Livros2.html">Livros Físicos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Colabore.html">Colabore</a>
+                        </li>
+                    </ul>
+    
+                    <!-- Barra de Pesquisa -->
+                    <div class="form-inline position-relative d-flex">
+                        <input type="text" id="searchInput" class="form-control flex-grow-1" placeholder="Buscar livros..." oninput="showSuggestions()" autocomplete="off">
+                        <img src="loupe.png" alt="Buscar" class="search-icon ml-2" onclick="redirectToSearch()">
+                        <div id="suggestions" class="div_suggestions"></div>
+                    </div>
+    
+                    <!-- Login e Carrinho -->
+                    <ul class="navbar-nav ms-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Login.html">
+                            <i class="fas fa-user"></i>
+                            Login
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrinho.html">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                Carrinho
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+
+    <main id="colabore">
+        <h1>Colabore e Faça Parte da Transformação!</h1>
+        <p>Ajude a transformar vidas e o meio ambiente com livros reciclados! Sua doação é essencial para que possamos continuar nosso projeto de criar e distribuir livros feitos de materiais reciclados, promovendo a educação sustentável e acessível para todos.</p>
+        <p>Com sua contribuição, conseguimos coletar, reciclar e dar nova vida a papéis descartados, transformando-os em livros que inspiram e ensinam. Além de incentivar a leitura, nossos livros também ajudam a reduzir o impacto ambiental, gerando consciência sobre a importância da sustentabilidade.</p>
+    
+        <h2>Como sua doação faz a diferença:</h2>
+        <ul>
+          <li><strong>Materiais Sustentáveis:</strong> A cada doação, adquirimos materiais recicláveis e ecológicos.</li>
+          <li><strong>Educação para Todos:</strong> Livros acessíveis ajudam comunidades a terem acesso ao conhecimento.</li>
+          <li><strong>Consciência Ambiental:</strong> A reciclagem e reutilização promovem um ciclo de aprendizado e respeito pelo meio ambiente.</li>
+        </ul>
+    
+        <p>Cada valor doado nos ajuda a dar mais um passo na construção de um futuro mais verde e com mais oportunidades. Junte-se a nós nessa missão – colabore e faça parte da mudança!</p>
+        <a href="https://www.instagram.com/editorasustentabooks?igsh=MWl4aGM3dHY4bXc4OQ=="><button onclick="window.location.href='#'">Doe Agora</button></a>
+      </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Sobre a Empresa -->
+                <div class="col-md-3 mb-4">
+                    <h5>Sobre Nós</h5>
+                    <p>SUSTENTA BOOKS é um e-commerce focado em sustentabilidade e conhecimento, oferecendo ebooks e livros físicos com responsabilidade ambiental.</p>
+                </div>
+
+                <!-- Links de Navegação -->
+                <div class="col-md-3 mb-4">
+                    <h5>Navegação</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Sustenta.html">Home</a></li>
+                        <li><a href="Sobre.html">Sobre</a></li>
+                        <li><a href="Produtos.html">Produtos</a></li>
+                        <li><a href="Contato.html">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Suporte e Atendimento -->
+                <div class="col-md-3 mb-4">
+                    <h5>Atendimento</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="suporte.html">Suporte</a></li>
+                        <li><a href="duvidas-frequentes.html"> Dúvidas Frequentes</a></li>
+                        <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <!-- Redes Sociais -->
+                <div class="col-md-3 mb-4">
+                    <h5>Siga-nos</h5>
+                    <a href="https://www.instagram.com/editorasustentabooks?igsh=MWl4aGM3dHY4bXc4OQ==" target="_blank" class="text-white mr-3"><i class="fab fa-instagram"></i> Instagram</a><br>
+                </div>
+            </div>
+
+            <!-- Formas de Pagamento -->
+
+            <div class="bandeiras-align">
+                <p style="font-size:13px; color: white; text-align: left;">ㅤㅤAceitamos as seguintes Formas de Pagamento:</p>
+                <img loading="tw" src="bandeiras-card.png" width="320px">
+                <style>
+                    .bandeiras-align {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: left;
+                    }
+                    
+                    .bandeiras-align>p {
+                        margin-bottom: 0;
+                    }
+                    
+                    @media (max-width: 640px) {
+                        .bandeiras-align {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: left;
+                            margin-bottom: 48px;
+                        }
+                    }
+                </style>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center py-3">
+                <p class="mb-0">&copy; 2024 SUSTENTA BOOKS. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

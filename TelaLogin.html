@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sustenta</title>
+    <link rel="stylesheet" href="Sustenta(1).css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            overflow: hidden;
+            position: relative;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color: #f0f8ff; /* Ajuste o fundo para destacar as folhas */
+        }
+
+        .login-container {
+            position: relative;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 10px;
+            padding: 2rem;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            
+        }
+
+        .login-background {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 120%; /* Ajuste o valor conforme desejado */
+            height: 120%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            opacity: 0.9; /* Define transparência para o efeito desejado */
+        }
+
+        .logo img {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 300px;
+        }
+
+        .login-container h2 {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            padding: 0.5rem;
+        }
+
+        .btn-login {
+            width: 100%;
+            background-color: #4CAF50;
+            border: none;
+            padding: 0.75rem;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-login:hover {
+            background-color: #45a049;
+        }
+
+        .forgot-password, .sign-up {
+            text-align: center;
+            display: block;
+            margin-top: 1rem;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .forgot-password:hover, .sign-up:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <div class="login-container">
+        <div class="logo">
+            <img src="LogoSustenta.jpeg" alt="Logo Sustenta">
+        </div>
+        <h2>Entrar na sua Conta</h2>
+        <form action="dashboard.html" method="post">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required placeholder="Digite seu email">
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" class="form-control" required placeholder="Digite sua senha">
+            </div>
+            <button type="submit" class="btn btn-login">Entrar</button>
+            <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+            <a href="register.html" class="sign-up">Criar uma nova conta</a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.star-rating {
+    display: flex;
+    gap: 16px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fa {
+    transition: color 0.3s;
+}
+
+.fa.active {
+    color: gold;
+}
+
+    /* Estilo para a caixa de texto */
+    #user-review {
+        width: 50%; /* Ajuste para ocupar toda a largura do contêiner */
+        padding: 12px; /* Espaçamento interno */
+        font-size: 16px; /* Tamanho da fonte */
+        border: 2px solid #ccc; /* Cor da borda */
+        border-radius: 8px; /* Bordas arredondadas */
+        resize: none; /* Desabilita o redimensionamento */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombras sutis */
+        transition: border-color 0.3s, box-shadow 0.3s; /* Transição suave */
+    }
+
+    /* Estilo ao passar o mouse */
+    #user-review:hover {
+        border-color: #5cb85c; /* Cor da borda ao passar o mouse */
+    }
+
+    /* Estilo quando o campo é focado */
+    #user-review:focus {
+        border-color: #5cb85c; /* Cor da borda ao focar */
+        box-shadow: 0 0 8px rgba(92, 184, 92, 0.6); /* Sombramento mais forte */
+        outline: none; /* Remove a borda azul padrão */
+    }
+
+    /* Placeholder */
+    #user-review::placeholder {
+        color: #888; /* Cor do texto do placeholder */
+        font-style: italic; /* Estilo itálico para o texto do placeholder */
+    }

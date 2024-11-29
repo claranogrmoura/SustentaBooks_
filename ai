@@ -1,0 +1,377 @@
+<section id="produtos" class="produtos-grid">
+
+    <div class="container mt-3">
+        <h3 class="text-center">Promoções</h3>
+        <div class="row">
+            <!-- Produto 1 -->
+            <div class="col-md-3 mb-4">
+                <img src="1.png" alt="Produto 1" width="180px" height="180px">
+                <h3>A ultima Chave</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 70,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="col-md-3 mb-4">
+                <img src="2.png" alt="Produto 2" width="180px" height="180px">
+                <h3>Entre Estrelas e Máquinas</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 54,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="col-md-3 mb-4">
+                <img src="3.png" alt="Produto 3" width="180px" height="180px">
+                <h3>Reinos de Sombra e Luz</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 60,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 4 -->
+            <div class="col-md-3 mb-4">
+                <img src="4.png" alt="Produto 4" width="180px" height="180px">
+                <h3>Corações em Tempestade</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 64,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 5 -->
+            <div class="col-md-3 mb-4">
+                <img src="5.png" alt="Produto 5" width="180px" height="180px">
+                <h3>Os Sussurros na Floresta</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 345,00</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 6 -->
+            <div class="col-md-3 mb-4">
+                <img src="6.png" alt="Produto 6" width="180px" height="180px">
+                <h3>Tesouro Perdido de Araknor
+                </h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 165,60</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 7 -->
+            <div class="col-md-3 mb-4">
+                <img src="7.png" alt="Produto 7" width="180px" height="180px">
+                <h3>Ecos de um Passado Esquecido</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 379,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 8 -->
+            <div class="col-md-3 mb-4">
+                <img src="8.png" alt="Produto 8" width="180px" height="180px">
+                <h3>Caminhos de uma Revolucionária</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 379,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--Produtos e GRIDS 2-->
+
+<section id="produtos" class="produtos-grid">
+
+    <div class="container mt-3">
+        <h3 class="text-center">Destaques</h3>
+        <div class="row">
+            <!-- Produto 9 -->
+            <div class="col-md-3 mb-4">
+                <img src="9.png" alt="Produto 9" width="180px" height="180px">
+                <h3>Desperte Seu Melhor Eu</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 70,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 10 -->
+            <div class="col-md-3 mb-4">
+                <img src="10.png" alt="Produto 10" width="180px" height="180px">
+                <h3>Versos ao Vento</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 379,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 11 -->
+            <div class="col-md-3 mb-4">
+                <img src="11.png" alt="Produto 11" width="180px" height="180px">
+                <h3>Infantil A Jornada da Estrelinha</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 379,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 12 -->
+            <div class="col-md-3 mb-4">
+                <img src="12.png" alt="Produto 12" width="180px" height="180px">
+                <h3>A Última Canção</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 379,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 13 -->
+            <div class="col-md-3 mb-4">
+                <img src="13.png" alt="Produto 13" width="180px" height="180px">
+                <h3>Entre Sombras e Luz</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 379,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 14 -->
+            <div class="col-md-3 mb-4">
+                <img src="14.png" alt="Produto 14" width="180px" height="180px">
+                <h3>Cidade das Almas Perdidas</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 379,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 15 -->
+            <div class="col-md-3 mb-4">
+                <img src="15.png" alt="Produto 15" width="180px" height="180px">
+                <h3>O Último Segredo</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 379,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+
+            <!-- Produto 16 -->
+            <div class="col-md-3 mb-4">
+                <img src="16.png" alt="Produto 16" width="180px" height="180px">
+                <h3>Desvendando os Mistérios da Mente</h3>
+                <p>Teste de Exibição de Produto</p>
+                <span class="preco">R$ 379,90</span>
+                <br><br>
+                <a href="Livro.html" class="btn btn-success btn-lg w-100 mt-2 rounded-0">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span class="d-none d-md-inline">Comprar</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="produtos-destaque">
+    <h2>Produtos em Destaque</h2>
+    <div class="produtos-grid">
+        <div class="col-md-3">
+            <img src="1.png" alt="A Biblioteca da Meia-Noite - Matt Haig">
+            <h3>A Biblioteca da Meia-Noite - Matt Haig</h3>
+            <p class="preco">R$ 70,90</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="2.png" alt="As Vantagens de Ser Invisível - Stephen Chbosky">
+            <h3>As Vantagens de Ser Invisível - Stephen Chbosky</h3>
+            <p class="preco">R$ 54,90</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="3.png" alt="Os Sete Maridos de Evelyn Hugo - Taylor Jenkins Reid">
+            <h3>Os Sete Maridos de Evelyn Hugo - Taylor Jenkins Reid</h3>
+            <p class="preco">R$ 60,90</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="4.png" alt="Por Lugares Incríveis - Jennifer Niven">
+            <h3>Por Lugares Incríveis - Jennifer Niven</h3>
+            <p class="preco">R$ 64,90</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="5.png" alt="Box O Diário de Um Banana - Jeff Kinney, 10 Livros">
+            <h3>Box O Diário de Um Banana - Jeff Kinney, 10 Livros</h3>
+            <p class="preco">R$ 345,00</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="6.png" alt="Barca à Deriva - Kiera Cass">
+            <h3>Barca à Deriva - Kiera Cass</h3>
+            <p class="preco">R$ 165,60</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="7.png" alt="Box Percy Jackson e Os Olimpianos - Rick Riordan, 5 Livros">
+            <h3>Box Percy Jackson e Os Olimpianos - Rick Riordan, 5 Livros</h3>
+            <p class="preco">R$ 68,00</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="8.png" alt="Box Harry Potter - J.K. Rowling, 7 Livros">
+            <h3>Box Harry Potter - J.K. Rowling, 7 Livros</h3>
+            <p class="preco">R$ 85,90</p>
+            <button class="botao">Comprar</button>
+        </div>
+    </div>
+</section>
+
+<!-- Banner entre as seções -->
+<div class="banner">
+    <img src="imagens/banner.jpg" alt="Banner Promocional">
+</div>
+
+<!-- Segunda seção de livros -->
+<section class="promocoes">
+    <h2>Promoções</h2>
+    <div class="produtos-grid">
+        <div class="col-md-3">
+            <img src="9.png" alt="O Apanhador no Campo de Centeio - J.D. Salinger">
+            <h3>O Apanhador no Campo de Centeio - J.D. Salinger</h3>
+            <p class="preco">R$ 85,40</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="10.png" alt="O Pequeno Príncipe - Antoine de Saint-Exupéry">
+            <h3>O Pequeno Príncipe - Antoine de Saint-Exupéry</h3>
+            <p class="preco">R$ 37,20</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="11.png" alt="Dois Garotos se Beijando - David Levithan">
+            <h3>Dois Garotos se Beijando - David Levithan</h3>
+            <p class="preco">R$ 52,10</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="12.png" alt="A Culpa é das Estrelas - John Green">
+            <h3>A Culpa é das Estrelas - John Green</h3>
+            <p class="preco">R$ 35,90</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="13.png" alt="O Deus das Pequenas Coisas - Arundhati Roy">
+            <h3>O Deus das Pequenas Coisas - Arundhati Roy</h3>
+            <p class="preco">R$ 51,42</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="14.png" alt="Eu Estive Aqui - Gayle Forman">
+            <h3>Eu Estive Aqui - Gayle Forman</h3>
+            <p class="preco">R$ 36,35</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="15.png" alt="Mentirosos - E. Lockhart">
+            <h3>Mentirosos - E. Lockhart</h3>
+            <p class="preco">R$ 28,90</p>
+            <button class="botao">Comprar</button>
+        </div>
+        <div class="col-md-3">
+            <img src="16.png" alt="A Cabana - William P. Young">
+            <h3>A Cabana - William P. Young</h3>
+            <p class="preco">R$ 45,50</p>
+            <button class="botao">Comprar</button>
+        </div>
+    </div>
+</section>

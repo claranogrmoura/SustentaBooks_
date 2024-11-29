@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Livro</title>
+    <link rel="stylesheet" href="Sustenta(1).css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" href="LogoSustenta.jpeg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="Sustenta(1).html">
+                    <img src="logo top1.png" alt="Sustenta Books" width="220" height="auto">
+                </a>
+    
+            <!-- Botão Responsivo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+    
+                <!-- Links da Navbar -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Sustenta(1).html">Início</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="produtosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Produtos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="produtosDropdown">
+                                <a class="dropdown-item" href="Sustenta.html">Ebooks</a>
+                                <a class="dropdown-item" href="Livros2.html">Livros Físicos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Colabore.html">Colabore</a>
+                        </li>
+                    </ul>
+    
+                    <!-- Barra de Pesquisa -->
+                    <div class="form-inline position-relative d-flex">
+                        <input type="text" id="searchInput" class="form-control flex-grow-1" placeholder="Buscar livros..." oninput="showSuggestions()" autocomplete="off">
+                        <img src="loupe.png" alt="Buscar" class="search-icon ml-2" onclick="redirectToSearch()">
+                        <div id="suggestions" class="div_suggestions"></div>
+                    </div>
+    
+                    <!-- Login e Carrinho -->
+                    <ul class="navbar-nav ms-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Login.html">
+                            <i class="fas fa-user"></i>
+                            Login
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrinho.html">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                Carrinho
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+
+    <!-- Adicionei a tag <main> ao redor do conteúdo principal -->
+    <main>
+        <div class="container mt-5">
+            <h2>Detalhes do Livro</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="10.png" class="img-fluid" alt="Entre Estrelas e Máquinas Teste de Exibição de Produto" width="50%" height="50%">
+                </div>
+                <div class="col-md-6">
+                    <h3>O Pequeno Príncipe </h3>
+                    <p>Autor:- Antoine de Saint-Exupérys</p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <style>
+                        .checked {
+                            color: rgb(255, 211, 37);
+                        }
+                    </style>
+
+                    <!--ESTRELAS REVIEW-->
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-o checked"></span>
+                    <span class="fa fa-star-o checked"></span>
+                    <span class="fa fa-star-o checked"></span>
+                    <p class="descricao" data-linhas-totais="12">
+                        Nesta história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma aventura filosófica e poética através de planetas que encerram a solidão humana.
+                    </p>
+
+                    <br><br>
+                    <span class="preco">R$ 39,90</span>
+                    <br><br>
+                    <button class="btn btn-success">Comprar</button>
+                    <button class="btn btn-primary adicionar-carrinho" data-id="O Pequeno Príncipe" data-titulo="O Pequeno Príncipe - Antoine de Saint-Exupéry" data-preco="R$ 39,90" data-imagem="10.png">
+                        Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <link rel="stylesheet" href="star.css">
+
+    <!-- Nova seção de reviews -->
+    <div class="mt-5 text-center">
+        <h4>Avaliações dos Clientes</h4>
+        <!-- Formulário para deixar uma avaliação -->
+        <form id="review-form" class="mb-4">
+            <div class="form-group">
+                <label>Classificação:</label>
+                <div class="star-rating d-flex justify-content-center">
+                    <span class="fa fa-star-o" data-value="1"></span>
+                    <span class="fa fa-star-o" data-value="2"></span>
+                    <span class="fa fa-star-o" data-value="3"></span>
+                    <span class="fa fa-star-o" data-value="4"></span>
+                    <span class="fa fa-star-o" data-value="5"></span>
+                </div>
+                <input type="hidden" id="rating-value" name="rating-value" required>
+            </div>
+            <label for="user-review">Deixe sua Avaliação:</label>
+            <textarea id="user-review" class="form-control mx-auto" rows="3" placeholder="Escreva seu comentário" required></textarea>
+            <button type="submit" class="btn btn-primary mt-3">Enviar Avaliação</button>
+        </form>
+
+        <!-- Exibição de avaliações existentes -->
+        <div id="reviews-list" class="text-center">
+            <h5>Comentários:</h5>
+            <div class="review-item mx-auto" style="max-width: 600px;">
+                <div class="d-flex align-items-center justify-content-center">
+                    <p class="mb-0"><strong>Usuário 1:</strong></p>
+                    <div class="stars ml-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <p>Extremamente envolvente, recomendo fortemente!</p>
+            </div>
+            <div class="review-item mx-auto" style="max-width: 600px;">
+                <div class="d-flex align-items-center justify-content-center">
+                    <p class="mb-0"><strong>Usuário 2:</strong></p>
+                    <div class="stars ml-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <p>Narrativa envolvente, recomendo sem hesitação.</p>
+            </div>
+            <div class="review-item mx-auto" style="max-width: 600px;">
+                <div class="d-flex align-items-center justify-content-center">
+                    <p class="mb-0"><strong>Usuário 3:</strong></p>
+                    <div class="stars ml-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <p>Livro muito envolvente, recomendo a todos!</p>
+            </div>
+            <div class="review-item mx-auto" style="max-width: 600px;">
+                <div class="d-flex align-items-center justify-content-center">
+                    <p class="mb-0"><strong>Usuário 4:</strong></p>
+                    <div class="stars ml-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <p>História cativante, indico para todos que gostam de boas leituras.</p>
+            </div>
+            <div class="review-item mx-auto" style="max-width: 600px;">
+                <div class="d-flex align-items-center justify-content-center">
+                    <p class="mb-0"><strong>Usuário 5:</strong></p>
+                    <div class="stars ml-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half-o checked"></span>
+                    </div>
+                </div>
+                <p>Uma leitura fascinante, vale muito a pena!</p>
+            </div>
+
+
+        </div>
+        <!-- Adicione mais comentários aqui -->
+    </div>
+    <script src="star.js"></script>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Sobre a Empresa -->
+                <div class="col-md-3 mb-4">
+                    <h5>Sobre Nós</h5>
+                    <p>SUSTENTA BOOKS é um e-commerce focado em sustentabilidade e conhecimento, oferecendo ebooks e livros físicos com responsabilidade ambiental.</p>
+                </div>
+
+                <!-- Links de Navegação -->
+                <div class="col-md-3 mb-4">
+                    <h5>Navegação</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Sustenta(1).html">Home</a></li>
+                        <li><a href="Sobre.html">Sobre</a></li>
+                        <li><a href="Produtos.html">Produtos</a></li>
+                        <li><a href="suporte.html">Suporte</a></li>
+                    </ul>
+                </div>
+
+                <!-- Suporte e Atendimento -->
+                <div class="col-md-3 mb-4">
+                    <h5>Atendimento</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="termosdeuso.html">Termos de Uso</a></li>
+                        <li><a href="duvidas-frequentes.html"> Dúvidas Frequentes</a></li>
+                        <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <!-- Redes Sociais -->
+                <div class="col-md-3 mb-4">
+                    <h5>Siga-nos</h5>
+                    <a href="https://www.instagram.com/editorasustentabooks?igsh=MWl4aGM3dHY4bXc4OQ==" target="_blank" class="text-white mr-3"><i class="fab fa-instagram"></i> Instagram</a><br>
+                </div>
+            </div>
+
+            <!-- Formas de Pagamento -->
+
+            <div class="bandeiras-align">
+                <p style="font-size:13px; color: white; text-align: left;">ㅤㅤAceitamos as seguintes Formas de Pagamento:</p>
+                <img loading="tw" src="bandeiras-card.png" width="320px">
+                <style>
+                    .bandeiras-align {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: left;
+                    }
+                    
+                    .bandeiras-align>p {
+                        margin-bottom: 0;
+                    }
+                    
+                    @media (max-width: 640px) {
+                        .bandeiras-align {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: left;
+                            margin-bottom: 48px;
+                        }
+                    }
+                </style>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center py-3">
+                <p class="mb-0">&copy; 2024 SUSTENTA BOOKS. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="descricao.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Adicione aqui o script para o botão "Adicionar ao Carrinho" -->
+    <script>
+        // Função para adicionar ao carrinho
+        function adicionarAoCarrinho(id, titulo, preco, imagem) {
+            let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+            const itemExistente = carrinho.find(item => item.id === id);
+
+            if (itemExistente) {
+                itemExistente.quantidade += 1;
+            } else {
+                carrinho.push({
+                    id,
+                    titulo,
+                    preco,
+                    imagem,
+                    quantidade: 1
+                });
+            }
+
+            localStorage.setItem('carrinho', JSON.stringify(carrinho));
+            alert('Item adicionado ao carrinho!');
+        }
+
+        // Captura o botão e adiciona a funcionalidade
+        document.querySelector('.adicionar-carrinho').addEventListener('click', function() {
+            const id = this.getAttribute('data-id');
+            const titulo = this.getAttribute('data-titulo');
+            const preco = this.getAttribute('data-preco');
+            const imagem = this.getAttribute('data-imagem');
+
+            adicionarAoCarrinho(id, titulo, preco, imagem);
+        });
+    </script>
+</body>
+
+</body>
+
+</html>

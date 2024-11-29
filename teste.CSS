@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #2a9d8f;
+    color: #ffffff;
+  }
+  
+  .navbar-left h1 {
+    font-size: 1.5em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .navbar-center {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-center li {
+    position: relative;
+  }
+  
+  .navbar-center a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+  }
+  
+  .navbar-center a:hover {
+    color: #f0f0f5;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .dropdown-content li {
+    list-style: none;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f0f0f5;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbar-right input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 150px;
+  }
+  
+  .login-btn {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    background-color: #e76f51;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #d35d3f;
+  }
+  
+  .cart-btn {
+    font-size: 1.2em;
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .cart-btn:hover {
+    color: #f0f0f5;
+  }
+  .search.active input{
+    border-radius: 5 px 5px 0 0;
+  }
+  .search.active .list{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .search.active .list li{
+    display: block;
+  }
+  
